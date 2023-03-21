@@ -1,3 +1,20 @@
+body {
+    background-color: #2A3235;
+}
+
+h1 {
+    color: #EEB9C1;
+}
+
+p {
+    color: #DEEEF3;
+}
+
+a {
+    text-decoration: none;
+    color: #B3DCE2
+}
+
 ul {
     list-style-type: none;
     margin: 0;
