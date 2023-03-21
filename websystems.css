@@ -5,6 +5,14 @@
     src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
 }
 
+.nav li {
+    display: block;
+    float: left;
+    padding: 8px;
+    padding-left: 0px;
+    list-style-type: none;
+}
+
 body {
     background-color: #2A3235;
     font-family: "system-ui";
@@ -21,10 +29,4 @@ p {
 a {
     text-decoration: none;
     color: #B3DCE2
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
