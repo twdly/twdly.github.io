@@ -1,8 +1,7 @@
-@font-face {
+body {
+    background-color: #2A3235;
     font-family: system-ui;
-    font-style: normal;
-    font-weight: 300;
-    src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+
 }
 
 .nav li {
@@ -11,11 +10,6 @@
     padding: 8px;
     padding-left: 0px;
     list-style-type: none;
-}
-
-body {
-    background-color: #2A3235;
-    font-family: "system-ui";
 }
 
 h1 {
