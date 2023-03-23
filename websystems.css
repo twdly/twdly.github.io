@@ -12,6 +12,13 @@ body {
     list-style-type: none;
 }
 
+div.centretext {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
 h1 {
     color: #EEB9C1;
 }
