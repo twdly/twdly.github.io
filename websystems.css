@@ -20,6 +20,16 @@ a {
     
 }
 
+table {
+    color: #DEEEF3;
+    table-layout: fixed;
+    width: 100%;
+}
+
+td {
+    padding-bottom: 5%;
+}
+
 .nav a {
     text-decoration: none;
     color: #B3DCE2;
