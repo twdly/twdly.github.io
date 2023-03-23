@@ -16,6 +16,11 @@ p {
 }
 
 a {
+    color: #B3DCE2;
+    
+}
+
+.nav a {
     text-decoration: none;
     color: #B3DCE2;
 }
