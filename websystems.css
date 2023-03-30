@@ -50,6 +50,24 @@ div.centretext {
     text-align: center;
 }
 
+img {
+    display: block;
+    max-width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.caption {
+    color: #526B6F;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 0;
+}
+
 #description {
     color: #526B6F;
 }
