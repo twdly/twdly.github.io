@@ -27,6 +27,16 @@ table {
     width: 100%;
 }
 
+.columntitle {
+    color: #EEB9C1;
+    font-weight: bold;
+}
+
+.rowtitle {
+    color: #66b9d2;
+    font-weight: bold;
+}
+
 td {
     padding-bottom: 5%;
 }
