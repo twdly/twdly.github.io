@@ -110,6 +110,10 @@ img {
     margin-bottom: 0;
 }
 
+table + h2 {
+    margin-top: 0px;
+}
+
 .caption {
     color: #526B6F;
     margin-left: auto;
