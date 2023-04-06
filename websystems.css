@@ -8,6 +8,17 @@ body {
     font-family: system-ui;
 }
 
+footer p{
+    color: #526B6F;
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+}
+
+footer a {
+    color: #526B6F;
+}
+
 h1 {
     color: #EEB9C1;
     margin-top: 0;
