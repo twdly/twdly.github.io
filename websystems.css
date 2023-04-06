@@ -97,6 +97,10 @@ td {
     color: #B3DCE2;
 }
 
+#pagedescription {
+    color: #526B6F;
+}
+
 div.centretext {
     max-width: 500px;
     margin-left: auto;
@@ -126,6 +130,6 @@ table + h2 {
     padding-top: 0;
 }
 
-#description {
+.description {
     color: #526B6F;
 }
