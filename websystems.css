@@ -3,6 +3,10 @@ html {
     color-scheme: dark;
 }
 
+::selection{
+    background-color: #4a5a5e;
+}
+
 body {
     background-color: #2A3235;
     font-family: system-ui;
