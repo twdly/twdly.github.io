@@ -32,6 +32,12 @@ table {
     width: 100%;
 }
 
+hr {
+    background-color: #B3DCE222;
+    border: none;
+    height: 2px;
+}
+
 .columntitle {
     color: #EEB9C1;
     font-weight: bold;
