@@ -126,6 +126,10 @@ table + h2 {
     margin-top: 0px;
 }
 
+footer hr {
+    margin-top: 7px;
+}
+
 .caption {
     color: #526B6F;
     margin-left: auto;
