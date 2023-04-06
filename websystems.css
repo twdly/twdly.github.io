@@ -1,3 +1,8 @@
+html {
+    overflow-y: scroll;
+    color-scheme: dark;
+}
+
 body {
     background-color: #2A3235;
     font-family: system-ui;
