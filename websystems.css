@@ -158,5 +158,10 @@ footer hr {
 
 #selected {
     text-decoration: underline;
-    text-decoration-color: #B3DCE2;
+    text-decoration-color: #66b9d2;
+
+}
+
+#selected a {
+    color: #66b9d2;
 }
