@@ -76,7 +76,7 @@ hr {
     height: 2px;
     margin-bottom: 15px;
     margin-top: 12px;
-    max-width: 500px;
+    max-width: min(95vw, 500px);
 }
 
 .columntitle {
