@@ -7,9 +7,21 @@ html {
     background-color: #4a5a5e;
 }
 
+header {
+    min-height: 50px;
+}
+
 body {
     background-color: #2A3235;
     font-family: system-ui;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    min-height: 50px;
 }
 
 footer p {
@@ -29,7 +41,14 @@ footer a {
 
 h1 {
     color: #EEB9C1;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
     margin-top: 0;
+}
+
+article {
+    flex: 1;
 }
 
 h2 {
@@ -58,13 +77,6 @@ hr {
     margin-bottom: 15px;
     margin-top: 12px;
     max-width: 500px;
-}
-
-.bottom {
-    position: absolute;
-    bottom: 5px;
-    left: 0;
-    right: 0;
 }
 
 .columntitle {
