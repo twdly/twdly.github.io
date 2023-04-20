@@ -44,46 +44,57 @@
                 first thing I would attempt to add would be a light mode. Although I personally believe that dark colour
                 schemes like the one present on this website look cleaner and are generally considered better for
                 readability, there are use cases in which people may prefer light modes such as when attempting to view
-                content outside in the sun or in other light environments. Implementing this would also further improve 
+                content outside in the sun or in other light environments. Implementing this would also further improve
                 the accessibility of the website as individuals with a condition called astigmatism sometimes struggle
-                to read content when designed to only support a dark mode as this leads to excessive blurriness in their vision.
+                to read content when designed to only support a dark mode as this leads to excessive blurriness in their
+                vision.
             </p>
             <h2>
                 Technical Aspects
             </h2>
             <p>
-                Each page on this website consists of three main sections that form each page; the navigation bar, the 
-                body/article and the footer. To ensure that my aforementioned goal of consistency was achieved in this 
-                regard, the navigation bar and footer are consistent between pages. Each of these sections are separated 
+                Each page on this website consists of three main sections that form each page; the navigation bar, the
+                body/article and the footer. To ensure that my aforementioned goal of consistency was achieved in this
+                regard, the navigation bar and footer are consistent between pages. Each of these sections are separated
                 by a horizontal line to create a visual distinction between the sections while also just looking good
                 <span class="description">(in my opinion at least)</span>.
             </p>
             <p>
-                One issue I had with this design was that the footer would be placed directly after the text in the article 
-                for each page which, on most pages, was not an issue with the only exception on devices I tested with being 
-                the home page. After testing many potential solutions which all had flaws such as straight up not working or
-                resulting in the footer overlapping with other text, the solution I found was to create a flexbox which was
-                given a minimum size of at least 100vh which is CSS-speak for the whole screen. This resulted in the footer 
-                being placed at either the very bottom of the page if the content is less than a whole screen or at the 
-                bottom of the article if it is long enough. This is displayed in the two following images which have borders
+                One issue I had with this design was that the footer would be placed directly after the text in the
+                article
+                for each page which, on most pages, was not an issue with the only exception on devices I tested with
+                being
+                the home page. After testing many potential solutions which all had flaws such as straight up not
+                working or
+                resulting in the footer overlapping with other text, the solution I found was to create a flexbox which
+                was
+                given a minimum size of at least 100vh which is CSS-speak for the whole screen. This resulted in the
+                footer
+                being placed at either the very bottom of the page if the content is less than a whole screen or at the
+                bottom of the article if it is long enough. This is displayed in the two following images which have
+                borders
                 added to demonstrate where the edge of the screen is.
             </p>
             <img src="img/flex.png" alt="This website with the footer at the bottom of the screen">
-            <p class="caption" alt="This website with the footer at the bottom of the article">Website with the flexbox enabled placing the footer at the bottom.</p>
+            <p class="caption" alt="This website with the footer at the bottom of the article">Website with the flexbox
+                enabled placing the footer at the bottom.</p>
             <img src="img/noflex.png">
             <p class="caption">Website without the flexbox enabled placing the footer below the text.</p>
             <p>
                 Another major technical design aspect for this website is how it responds to differently sized viewports
                 allowing for it to be just as functional on a laptop or desktop with a large screen as it is on a tiny
-                mobile phone. This was achieved by first allowing the web browser to modify the scale of the content 
-                on the website through placing the line <span class="code">&ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt</span>
-                at the top of each HTML file. With just this line, I found that the margins were still far to large on mobile
-                devices to be an acceptable solution by itself. This was solved through the use of the min() function 
-                inside my CSS for the horizontal line, images and text. Specifically, the maximum width of all these 
+                mobile phone. This was achieved by first allowing the web browser to modify the scale of the content
+                on the website through placing the line <span class="code">&ltmeta name="viewport"
+                    content="width=device-width, initial-scale=1.0"&gt</span>
+                at the top of each HTML file. With just this line, I found that the margins were still far too large on
+                mobile
+                devices to be an acceptable solution by itself. This was solved through the use of the min() function
+                inside my CSS for the horizontal line, images and text. Specifically, the maximum width of all these
                 elements are either 95% of the viewport's width or 500px depending on which is smaller. The end result
                 is a responsive website that is usable on both small and large screens.
                 <img src="img/phone.png" class="tall" alt="The mobile UI for this website">
-                <p class="caption">How this website looks when viewed on a mobile device. If you are already on a phone, all other screenshots of this website use the desktop UI.</p>
+            <p class="caption">How this website looks when viewed on a mobile device. If you are already on a phone, all
+                other screenshots of this website use the desktop UI.</p>
             </p>
             <h2 id="aesthetics">
                 Aesthetics
@@ -115,7 +126,7 @@
                 on certain pages made for inconsistent alignment between pages which manifested itself as content
                 appearing to shift around when navigating the website.
             </p>
-            
+
         </div>
         <img src="img/scrollbar.png" alt="Screenshot of website of scroll bar showing">
         <img src="img/noscroll.png" alt="Screenshot of website without scroll bar">
@@ -127,15 +138,19 @@
         <div class="centretext">
             <p>
                 An important part of making the content on this website as easy to read as possible was the use
-                of whitespace <span class="description">(or greyspace in my case?)</span> in both the margins and between each
-                element. Although many may consider the margins particularly wide compared to what they may be used to, 
-                I personally find that margins of this size result in lines containing just the right number of characters
-                for easy reading without feeling overwhelmed by the length of each line. Thankfully, 
-                <a href="https://baymard.com/blog/line-length-readability">typographers agree</a> that the ideal line length
+                of whitespace <span class="description">(or greyspace in my case?)</span> in both the margins and
+                between each
+                element. Although many may consider the margins particularly wide compared to what they may be used to,
+                I personally find that margins of this size result in lines containing just the right number of
+                characters
+                for easy reading without feeling overwhelmed by the length of each line. Thankfully,
+                <a href="https://baymard.com/blog/line-length-readability">typographers agree</a> that the ideal line
+                length
                 is within the range of 50-75 characters which my website perfectly falls within. In addition to margins,
                 whitespace is placed between all elements including paragraphs, images and headers. Unlike the margins,
-                there isn't any typographical reason behind the amount of whitespace between elements except I just think
-                it looks right. The amount of padding between elements was chosen by settling on a value that allows for 
+                there isn't any typographical reason behind the amount of whitespace between elements except I just
+                think
+                it looks right. The amount of padding between elements was chosen by settling on a value that allows for
                 a comfortable amount of space between elements while not being a ridiculous distance apart.
             </p>
             <h2 id="accessibility">
@@ -164,11 +179,11 @@
                 within my website.
             </p>
             <p>
-                Although not specifically a part of making the website usable for users with disabilities, as explained 
-                in the technical aspects section above, this website responsively resizes content depending on the size 
+                Although not specifically a part of making the website usable for users with disabilities, as explained
+                in the technical aspects section above, this website responsively resizes content depending on the size
                 of the screen being used to view it. This means that anyone is able to use the website regardless of
-                device allowing it to be vastly more accessible even if users do not have access to a specific type of 
-                device whether that be a phone or a laptop. 
+                device allowing it to be vastly more accessible even if users do not have access to a specific type of
+                device whether that be a phone or a laptop.
             </p>
         </div>
     </article>
