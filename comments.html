@@ -52,8 +52,26 @@
                 Technical Aspects
             </h2>
             <p>
-                fdfd
+                Each page on this website consists of three main sections that form each page; the navigation bar, the 
+                body/article and the footer. To ensure that my aforementioned goal of consistency was achieved in this 
+                regard, the navigation bar and footer are consistent between pages. Each of these sections are separated 
+                by a horizontal line to create a visual distinction between the sections while also just looking good
+                <span class="description">(in my opinion at least)</span>.
             </p>
+            <p>
+                One issue I had with this design was that the footer would be placed directly after the text in the article 
+                for each page which, on most pages, was not an issue with the only exception on devices I tested with being 
+                the home page. After testing many potential solutions which all had flaws such as straight up not working or
+                resulting in the footer overlapping with other text, the solution I found was to create a flexbox which was
+                given a minimum size of at least 100vh which is CSS-speak for the whole screen. This resulted in the footer 
+                being placed at either the very bottom of the page if the content is less than a whole screen or at the 
+                bottom of the article if it is long enough. This is displayed in the two following images which have borders
+                added to demonstrate where the edge of the screen is.
+            </p>
+            <img src="img/flex.png">
+            <p class="caption">Website with the flexbox enabled placing the footer at the bottom.</p>
+            <img src="img/noflex.png">
+            <p class="caption">Website without the flexbox enabled placing the footer below the text.</p>
             <h2 id="aesthetics">
                 Aesthetics
             </h2>
