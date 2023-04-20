@@ -84,8 +84,8 @@
                 Another major technical design aspect for this website is how it responds to differently sized viewports
                 allowing for it to be just as functional on a laptop or desktop with a large screen as it is on a tiny
                 mobile phone. This was achieved by first allowing the web browser to modify the scale of the content
-                on the website through placing the line <span class="code">&ltmeta name="viewport"
-                    content="width=device-width, initial-scale=1.0"&gt</span>
+                on the website through placing the line <code>&ltmeta name="viewport"
+                    content="width=device-width, initial-scale=1.0"&gt</code>
                 at the top of each HTML file. With just this line, I found that the margins were still far too large on
                 mobile
                 devices to be an acceptable solution by itself. This was solved through the use of the min() function
@@ -96,6 +96,88 @@
             <p class="caption">How this website looks when viewed on a mobile device. If you are already on a phone, all
                 other screenshots of this website use the desktop UI.</p>
             </p>
+            <p>
+                When designing this website, I used a number of classes to ensure that the correct elements are styled
+                in
+                the correct way allowing me to make the website look the way that I want it to. The classes used
+                throughout
+                the creation of this website are shown in the following table.
+            </p>
+            <table>
+                <tr class="columntitle">
+                    <td>Class</td>
+                    <td>Purpose</td>
+                </tr>
+                <tr>
+                    <td class="rowtitle">columntitle</td>
+                    <td>Used to colour the top element of each column in a table pink and make it bold.</td>
+                </tr>
+                <tr>
+                    <td class="rowtitle">rowtitle</td>
+                    <td>Used to colour the left-most element of each row in a table blue and make it bold.</td>
+                </tr>
+                <tr>
+                    <td class="rowtitle">nav</td>
+                    <td>Used to design the navigation bar at the top of each page.</td>
+                </tr>
+                <tr>
+                    <td class="rowtitle">centretext</td>
+                    <td>Used in a div that wraps around all text on every page and ensures that all text is centred and
+                        aligned while the margins are the correct size depending on the size of the screen.
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rowtitle">caption</td>
+                    <td>Used to style the centred, grey text underneath each image. Although this looks identical to
+                        elements with the pagedescription ID, I chose to use a separate class because IDs can only be
+                        used once per page and I may want to design the page description separately from the caption in
+                        the future.</td>
+                </tr>
+                <tr>
+                    <td class="rowtitle">description</td>
+                    <td>Used for the greyed out text that is used with spans during paragraphs for less
+                        important information <span class="description">like this</span>. The purpose of this is further
+                        explained in the <a href="#aesthetics">aesthetics</a> section.</td>
+                </tr>
+                <tr>
+                    <td class="rowtitle">tall</td>
+                    <td>Used for any images with an aspect ratio where the height is greater than the width. This is
+                        only used for the screenshot of the mobile UI above and was necessary because the image was too
+                        tall otherwise hence the name of the class.</td>
+                </tr>
+            </table>
+            <p>
+                Additionally, a number of IDs were used throughout the page both as anchors for navigation and for
+                styling elements that only appear once per page.
+            </p>
+            <table>
+                <tr class="columntitle">
+                    <td>ID</td>
+                    <td>Purpose</td>
+                </tr>
+                <tr>
+                    <td class="rowtitle">pagedescription</td>
+                    <td>Used to style the brief description of what the page contains between heading 1 and heading 2.
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rowtitle">selected</td>
+                    <td>Used to style the currently selected page in the navigation bar by making the blue darker and
+                        underlining the element.</td>
+                </tr>
+                <tr>
+                    <td class="rowtitle">aesthetics</td>
+                    <td>Used as an anchor to link to the aesthetics section of this page.</td>
+                </tr>
+                <tr>
+                    <td class="rowtitle">technical</td>
+                    <td>Used as an anchor to link to the technical aspects section of this page.</td>
+                </tr>
+                <tr>
+                    <td class="rowtitle">accessibility</td>
+                    <td>Used as an anchor to link to the accessibility section of this page.</td>
+                </tr>
+            </table>
             <h2 id="aesthetics">
                 Aesthetics
             </h2>

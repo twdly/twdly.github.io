@@ -161,11 +161,11 @@ footer hr {
     color: #526B6F;
 }
 
-.code {
+code {
     font-family: Menlo, Consolas, monospace;
 }
 
-.tall{
+.tall {
     height: 75vh;
     width: auto;
     padding-top: 10px;
