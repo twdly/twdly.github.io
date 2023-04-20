@@ -108,9 +108,14 @@ td {
     margin-bottom: 0px;
 }
 
+.nav :hover {
+    color: #EEB9C1;
+}
+
 .nav a {
     text-decoration: none;
     color: #B3DCE2;
+    transition: 0.2s;
 }
 
 #pagedescription {
@@ -156,12 +161,13 @@ footer hr {
     color: #526B6F;
 }
 
-#selected {
-    text-decoration: underline;
-    text-decoration-color: #66b9d2;
-
+#selected :hover {
+    color: #EEB9C1;
+    text-decoration-color: #EEB9C1;
 }
 
 #selected a {
     color: #66b9d2;
+    text-decoration: underline;
+    text-decoration-color: #66b9d2;
 }
