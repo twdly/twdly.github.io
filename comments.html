@@ -68,10 +68,23 @@
                 bottom of the article if it is long enough. This is displayed in the two following images which have borders
                 added to demonstrate where the edge of the screen is.
             </p>
-            <img src="img/flex.png">
-            <p class="caption">Website with the flexbox enabled placing the footer at the bottom.</p>
+            <img src="img/flex.png" alt="This website with the footer at the bottom of the screen">
+            <p class="caption" alt="This website with the footer at the bottom of the article">Website with the flexbox enabled placing the footer at the bottom.</p>
             <img src="img/noflex.png">
             <p class="caption">Website without the flexbox enabled placing the footer below the text.</p>
+            <p>
+                Another major technical design aspect for this website is how it responds to differently sized viewports
+                allowing for it to be just as functional on a laptop or desktop with a large screen as it is on a tiny
+                mobile phone. This was achieved by first allowing the web browser to modify the scale of the content 
+                on the website through placing the line <span class="code">&ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt</span>
+                at the top of each HTML file. With just this line, I found that the margins were still far to large on mobile
+                devices to be an acceptable solution by itself. This was solved through the use of the min() function 
+                inside my CSS for the horizontal line, images and text. Specifically, the maximum width of all these 
+                elements are either 95% of the viewport's width or 500px depending on which is smaller. The end result
+                is a responsive website that is usable on both small and large screens.
+                <img src="img/phone.png" class="tall" alt="The mobile UI for this website">
+                <p class="caption">How this website looks when viewed on a mobile device. If you are already on a phone, all other screenshots of this website use the desktop UI.</p>
+            </p>
             <h2 id="aesthetics">
                 Aesthetics
             </h2>

@@ -165,6 +165,11 @@ footer hr {
     font-family: monospace;
 }
 
+.tall{
+    height: 75vh;
+    width: auto;
+}
+
 #selected :hover {
     color: #EEB9C1;
     text-decoration-color: #EEB9C1;
